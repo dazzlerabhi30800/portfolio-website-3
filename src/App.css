@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background: radial-gradient(circle, rgb(22, 21, 21), rgb(0, 0, 0));
+  color: #fff;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 6px;
+  background: #222222;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar-thumb {
+  background: rgb(158, 155, 155);
+  border-radius: 5px;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+header h1 {
+  --animation-time: 20s;
+  background: linear-gradient(
+    to left,
+    #f751c0,
+    #ef3079,
+    #45f0c5,
+    #f9ed49,
+    #f33535,
+    #ef613e
+  );
+  width: fit-content;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: clamp(2rem, 3.5vw + 8px, 3rem);
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.highlight {
+  color: #fff;
+  font-weight: 500;
+}
+
+.gradient-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+ul li {
+  transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+ul li:hover {
+  transform: translateY(-5px) scale(1.3);
+}
