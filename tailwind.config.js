@@ -11,7 +11,7 @@ export default {
         pacifico: ["var(--font-pacifico)"],
       },
       height: {
-        screen2: "calc(100vh - 116px)",
+        screen2: "calc(100vh - 101.375px)",
       },
     },
   },

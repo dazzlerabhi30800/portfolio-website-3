@@ -89,3 +89,19 @@ ul li {
 ul li:hover {
   transform: translateY(-5px) scale(1.3);
 }
+.calendar {
+  width: 90%;
+}
+h2 {
+  height: full;
+}
+
+@media (hover: hover) {
+  .calendar *::-webkit-scrollbar {
+    appearance: none !important;
+  }
+
+  .calendar {
+    width: 70%;
+  }
+}

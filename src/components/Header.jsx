@@ -2,7 +2,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="p-4 md:px-20 flex items-center justify-between w-full">
+    <header className="p-4 flex items-center justify-between w-full">
       <h1 className="font-anton">AC</h1>
       <a
         target="_target"
