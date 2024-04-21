@@ -3,11 +3,11 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 export default function Header() {
   return (
     <header className="p-4 md:px-20 flex items-center justify-between w-full">
-      <h1>AC</h1>
+      <h1 className="font-anton">AC</h1>
       <a
         target="_target"
-        href="https://mail.google.com/mail/u/abhisingh72065@gmail.com/#inbox?compose=new"
-        className="hidden sm:block font-kalam underline text-lg transition ease-in-out duration-200 hover:text-pink-300"
+        href="mailto:abhisingh72065@gmail.com?subject=Hiring%20for%20opportunity&body=We%20want%20to%20hire%20you."
+        className="hidden sm:block font-caveat underline text-2xl md:text-3xl transition ease-in-out duration-200 hover:text-pink-300"
       >
         abhisingh72065@gmail.com
       </a>
