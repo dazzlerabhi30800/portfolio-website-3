@@ -124,7 +124,7 @@ h2 {
   }
 }
 
-@media Screen and (width >= 700) {
+@media Screen and (width >= 700px) {
   .project--comp:hover {
     transform: scale(0.9);
   }
