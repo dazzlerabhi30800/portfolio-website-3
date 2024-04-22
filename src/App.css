@@ -96,6 +96,24 @@ h2 {
   height: full;
 }
 
+/* Project Section Styling */
+.project--comp {
+  perspective: 2000px;
+  transition: 0.3s linear;
+  transform-style: preserve-3d;
+}
+.project--comp * {
+  transform-style: preserve-3d;
+  transition: 0.3s linear;
+}
+.github--link {
+  background: rgb(104, 38, 245);
+}
+
+.live--link {
+  background: rgb(245, 38, 145);
+}
+
 @media (hover: hover) {
   .calendar *::-webkit-scrollbar {
     appearance: none !important;
@@ -103,5 +121,14 @@ h2 {
 
   .calendar {
     width: 70%;
+  }
+}
+
+@media Screen and (width >= 700) {
+  .project--comp:hover {
+    transform: scale(0.9);
+  }
+  .project--comp:hover * {
+    transform: translateZ(200px);
   }
 }

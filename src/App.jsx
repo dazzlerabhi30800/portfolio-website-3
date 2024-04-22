@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProfileSection from "./components/Profile";
 import GithubCalendar from "./components/GithubCalendar";
+import Projects from "./components/Projects";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -14,7 +15,7 @@ function App() {
       }
     });
   }, []);
-  if (!show) return <h1>Loading...</h1>;
+  if (!show) return;
   return (
     <>
       <main className="flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">
@@ -24,6 +25,7 @@ function App() {
         </div>
         <ProfileSection />
         <GithubCalendar />
+        <Projects />
       </main>
     </>
   );

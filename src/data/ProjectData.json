@@ -1,0 +1,158 @@
+{
+  "projectData": [
+    {
+      "name": "Ecommerce App using Next.js,Typescript & Stripe Payment",
+      "image": "./Project-img/ecommerce-nextjs.png",
+      "github": "https://github.com/dazzlerabhi30800/ecommerce-store-in-ts-next.js",
+      "live": "https://ecommerce-store-in-ts-next-js.vercel.app/"
+    },
+    {
+      "name": "Trello 2.0 in Next.js using Typescipt, Zustand, DnD & Appwrite",
+      "image": "./Project-img/trello-clone.png",
+      "github": "https://github.com/dazzlerabhi30800/trello-clone-appwrite",
+      "live": "https://trello-clone-appwrite-two.vercel.app/"
+    },
+    {
+      "name": "Utube App using React Query, TS & TailwindCSS",
+      "image": "./Project-img/youtube-clone.jpg",
+      "github": "https://github.com/dazzlerabhi30800/youtube-clone-react-query-ts",
+      "live": "https://youtube-clone-react-query-ts.vercel.app/"
+    },
+    {
+      "name": "MERN Todo App",
+      "image": "./Project-img/mern-todo.png",
+      "live": "https://todo-app-backend-6packs.vercel.app"
+    },
+    {
+      "name": "Todo App - Appwrite & React",
+      "image": "./Project-img/todo-appwrite.png",
+      "github": "https://github.com/dazzlerabhi30800/todo-app-appwrite-typescript",
+      "live": "https://todo-app-appwrite-typescript.vercel.app"
+    },
+    {
+      "name": "GTA 6 Website using Next.js & GSAP",
+      "image": "./Project-img/gta6-website.png",
+      "github": "https://github.com/dazzlerabhi30800/gta6-website",
+      "live": "https://gta6-website.vercel.app"
+    },
+    {
+      "name": "Recipe App in NextJs with Typescript & Redux Toolkit",
+      "image": "./Project-img/recipe-app.png",
+      "github": "https://github.com/dazzlerabhi30800/recipe-app-nextjs-tsx",
+      "live": "https://recipe-app-nextjs-tsx.vercel.app/"
+    },
+    {
+      "name": "React Image File Reducer in Typescript",
+      "image": "./Project-img/image-file-reducer.png",
+      "github": "https://github.com/dazzlerabhi30800/React-Image-File-Resizer",
+      "live": "https://react-image-file-resizer.vercel.app/"
+    },
+    {
+      "name": "Chat App with React & Firebase",
+      "image": "./Project-img/chat-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/chat-app-using-google-auth",
+      "live": "https://chat-app-using-google-auth.vercel.app/"
+    },
+    {
+      "name": "Metflix Movie App",
+      "image": "./Project-img/movie-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/metflix-movie-app",
+      "live": "https://metflix-movie-app.vercel.app/"
+    },
+    {
+      "name": "Spotify Music App",
+      "image": "./Project-img/music-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/music-app-ReactJS",
+      "live": "https://music-app-react-js.vercel.app/"
+    },
+    {
+      "name": "Netflix Landing Page with Dual Language Support",
+      "image": "./Project-img/netflix-landing-page.jpg",
+      "github": "https://github.com/dazzlerabhi30800/netflix-welcome-page-clone-in-react",
+      "live": "https://netflix-welcome-page-clone-in-react.vercel.app/"
+    },
+    {
+      "name": "Simple Javascript Calculator",
+      "image": "./Project-img/js-calculator.png",
+      "github": null,
+      "live": "https://codepen.io/dazzlerabhi30800/pen/LYqvGqR"
+    },
+    {
+      "name": "NFT Market Website in Astro using React,Framer Motion,Typescript,GSAP",
+      "image": "./Project-img/nft-website.png",
+      "github": "https://github.com/dazzlerabhi30800/astro-animation-website",
+      "live": "https://astro-animation-website.vercel.app/"
+    },
+    {
+      "name": "Email Client in React using Redux Toolkit",
+      "image": "./Project-img/email-client.jpg",
+      "github": "https://github.com/dazzlerabhi30800/email-client-redux-react",
+      "live": "https://email-client-redux-react.vercel.app/"
+    },
+    {
+      "name": "Online Markdown Editor in Next.js & Typescript",
+      "image": "./Project-img/markdown-editor.png",
+      "github": "https://github.com/dazzlerabhi30800/online-markdown-editor-next.js-ts",
+      "live": "https://online-markdown-editor-next-js-ts.vercel.app/"
+    },
+    {
+      "name": "Tic Tac Toe Game in React",
+      "image": "./Project-img/tic-tac-toe.jpg",
+      "github": "https://github.com/dazzlerabhi30800/tic-toe-game-react",
+      "live": "https://tic-toe-game-react.vercel.app/"
+    },
+    {
+      "name": "Shopsy Ecommerce Site with Firebase, Redux and Stripe",
+      "image": "./Project-img/shopsy.jpg",
+      "github": "https://github.com/dazzlerabhi30800/ecommerce-app-with-firebase",
+      "live": "https://ecommerce-app-with-firebase.vercel.app/"
+    },
+    {
+      "name": "Random Password Generator in React",
+      "image": "./Project-img/random-pass-generator.jpg",
+      "github": "https://github.com/dazzlerabhi30800/random-password-generator-in-sass-using-react",
+      "live": "https://fanciful-treacle-6e8b94.netlify.app/"
+    },
+    {
+      "name": "Weather App in React",
+      "image": "./Project-img/weather-app.jpg",
+      "live": "https://weather-app-assignment-lemon.vercel.app/"
+    },
+    {
+      "name": "Todo Crud App in ReactJS",
+      "image": "./Project-img/crud-app.jpg",
+      "github": "https://github.com/dazzlerabhi30800/todo-crud-with-animation",
+      "live": "https://todo-crud-with-animation.vercel.app/"
+    },
+    {
+      "name": "Epic Games Store in React",
+      "image": "./Project-img/epic-games.jpg",
+      "github": "https://github.com/dazzlerabhi30800/epic-games-store-clone",
+      "live": "https://epic-games-store-clone-ashy.vercel.app/"
+    },
+    {
+      "name": "Rock Paper Scissors Game",
+      "image": "./Project-img/rock-paper-scissor.png",
+      "github": "https://github.com/dazzlerabhi30800/frontendMentor-Rock-paper-scissors-game-in-Next.js",
+      "live": "https://frontend-mentor-rock-paper-scissors-game-in-next-js.vercel.app/"
+    },
+    {
+      "name": "Clothing Store in Vanilla JS",
+      "image": "./Project-img/clothing-store.jpg",
+      "github": "https://github.com/dazzlerabhi30800/clothing-store-with-gsap",
+      "live": "https://clothing-store-with-gsap.vercel.app"
+    },
+    {
+      "name": "URL Shortening Using Axios",
+      "image": "./Project-img/url-shortener.png",
+      "github": "https://github.com/dazzlerabhi30800/FrontEndMentor-url-shortener-API",
+      "live": "https://front-end-mentor-url-shortener-api.vercel.app/"
+    },
+    {
+      "name": "IP Address Tracker",
+      "image": "./Project-img/ip-address-tracker.jpg",
+      "github": "https://github.com/dazzlerabhi30800/frontEndMentor-IP-Address-Tracker",
+      "live": "https://front-end-mentor-ip-address-tracker-1yn6.vercel.app/"
+    }
+  ]
+}
