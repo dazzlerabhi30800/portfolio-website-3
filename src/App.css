@@ -6,6 +6,7 @@
   --font-jersey: "Jersey 15", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --font-pacifico: "Pacifico", sans-serif;
+  --perspective: 2000px;
 }
 
 * {
@@ -98,7 +99,7 @@ h2 {
 
 /* Project Section Styling */
 .project--comp {
-  perspective: 2000px;
+  perspective: var(--perspective);
   transition: 0.3s linear;
   transform-style: preserve-3d;
 }
@@ -126,9 +127,21 @@ h2 {
 
 @media Screen and (width >= 700px) {
   .project--comp:hover {
-    transform: scale(0.9);
+    transform: scale(0.8);
+  }
+  .project--comp:hover > img {
+    transform: scale(0.95);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.601));
+    border-radius: 10px;
   }
   .project--comp:hover * {
-    transform: translateZ(200px);
+    /* transform: translateZ(180px; */
+    transform: translateZ(180px) translate(-5px, 5px);
+  }
+  .project--comp:hover h3 {
+    text-shadow: 0 8px 3px rgba(18, 18, 18, 0.913);
+  }
+  .project--comp:hover a {
+    box-shadow: 0 10px 20px 5px rgba(18, 18, 18, 0.402);
   }
 }
