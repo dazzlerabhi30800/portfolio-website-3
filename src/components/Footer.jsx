@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer--wrapper w-full">
-      <footer className="flex flex-wrap items-center gap-10 w-full py-20 px-10 justify-between w-full">
+      <footer className="footer flex flex-wrap items-center gap-10 w-full py-20 px-10 justify-between w-full">
         <h4 className="font-anton">AC</h4>
         <a
           target="_target"

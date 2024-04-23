@@ -50,7 +50,7 @@ body {
 }
 
 header h1,
-footer h4 {
+.footer h4 {
   --animation-time: 20s;
   background: linear-gradient(
     to left,
@@ -150,7 +150,7 @@ h2 {
     background-position: 400vw;
   }
 }
-footer {
+.footer {
   place-content: start center;
   background: linear-gradient(to right, rgb(22, 22, 39), #1f0c15);
   position: relative;
