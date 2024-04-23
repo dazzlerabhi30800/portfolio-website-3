@@ -17,7 +17,7 @@ const Projects = () => {
         {projects.map((project, index) => {
           if (resize > 700) {
             return (
-              <HoverCard scaleFactor={1.1} key={index}>
+              <HoverCard scaleFactor={0.5} key={index}>
                 <ProjectComp project={project} />
               </HoverCard>
             );

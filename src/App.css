@@ -127,15 +127,16 @@ h2 {
 
 @media Screen and (width >= 700px) {
   .project--comp:hover {
-    transform: scale(0.8);
+    filter: brightness(95%);
+    transform: scale(0.93);
   }
   .project--comp:hover > img {
-    transform: scale(0.95);
+    transform: scale(0.9);
     filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.601));
+    transform: translateZ(200px) translate(-5px, 5px) !important;
     border-radius: 10px;
   }
-  .project--comp:hover * {
-    /* transform: translateZ(180px; */
+  .project--comp:hover *:not(img) {
     transform: translateZ(180px) translate(-5px, 5px);
   }
   .project--comp:hover h3 {
