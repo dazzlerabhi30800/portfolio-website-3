@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer--wrapper w-full">
-      <footer className="footer flex flex-wrap items-center gap-10 w-full py-20 px-10 justify-between w-full">
+      <footer className="footer flex flex-wrap items-center gap-10 w-full py-10 md:py-20 px-4 md:px-10 justify-between text-center w-full">
         <h4 className="font-anton">AC</h4>
         <a
           target="_target"
@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <span className="font-poppins text-xl md:text-2xl flex item-center text-gray-400 flex-1 basis-full text-center justify-center tracking-wider">
+        <span className="font-poppins text-sm md:text-2xl flex item-center text-gray-400 flex-1 basis-full text-center justify-center tracking-wider">
           &copy; 2024 Copyright Abhishek Choudhary
         </span>
       </footer>

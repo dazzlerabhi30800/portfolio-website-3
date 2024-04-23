@@ -15,17 +15,10 @@
   box-sizing: border-box;
 }
 
-#root {
-  min-height: 100vh;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
 html,
 body {
   overflow-x: hidden;
   width: 100%;
-  background: radial-gradient(circle, rgb(22, 21, 21), rgb(0, 0, 0));
   color: #fff;
   scroll-behavior: smooth;
 }
@@ -39,14 +32,11 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#root {
+  min-height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: radial-gradient(circle, rgb(22, 21, 21), rgb(0, 0, 0));
 }
 
 header h1,
@@ -56,16 +46,16 @@ header h1,
     to left,
     #f751c0,
     #ef3079,
-    #45f0c5,
-    #f9ed49,
-    #f33535,
-    #ef613e
+    #f08f45,
+    #f9d049,
+    #c0f335,
+    #8eef3e
   );
   width: fit-content;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: clamp(2rem, 3.5vw + 8px, 3rem);
+  font-size: clamp(2.5rem, 3.5vw + 8px, 3.5rem);
   font-weight: 700;
   letter-spacing: 4px;
 }

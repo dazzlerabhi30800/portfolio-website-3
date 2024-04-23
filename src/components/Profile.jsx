@@ -1,6 +1,6 @@
 const ProfileSection = () => {
   return (
-    <section className="flex justify-start md:justify-center gap-10 md:gap-4 items-center text-center md:text-left min-h-screen flex-col md:flex-row">
+    <section className="flex justify-start md:justify-center gap-10 md:gap-10 items-center text-center md:text-left min-h-screen flex-col md:flex-row">
       <div className="flex-1 flex md:justify-center items-center">
         <img
           src="/profile.jpg"
