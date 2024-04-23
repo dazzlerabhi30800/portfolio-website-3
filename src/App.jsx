@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import ProfileSection from "./components/Profile";
 import GithubCalendar from "./components/GithubCalendar";
 import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         <ProfileSection />
         <GithubCalendar />
         <Projects />
+        <Certifications />
       </main>
     </>
   );

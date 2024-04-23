@@ -128,7 +128,7 @@ h2 {
 @media Screen and (width >= 700px) {
   .project--comp:hover {
     filter: brightness(95%);
-    transform: scale(0.93);
+    transform: scale(0.9);
   }
   .project--comp:hover > img {
     transform: scale(0.9);
