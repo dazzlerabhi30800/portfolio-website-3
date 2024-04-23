@@ -6,6 +6,9 @@ import ProfileSection from "./components/Profile";
 import GithubCalendar from "./components/GithubCalendar";
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
+import Resume from "./components/Resume";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -28,7 +31,10 @@ function App() {
         <GithubCalendar />
         <Projects />
         <Certifications />
+        <Resume />
+        <Skills />
       </main>
+      <Footer />
     </>
   );
 }

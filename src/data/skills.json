@@ -1,0 +1,56 @@
+{
+    "skills": [
+        {
+            "title": "Bootstrap",
+            "image": "./public/logo/bootstrap.png"
+        },
+        {
+            "title": "Communication",
+            "image": "./public/logo/communication.png"
+        },
+        {
+            "title": "CSS",
+            "image": "./public/logo/css.png"
+        },
+        {
+            "title": "Figma",
+            "image": "./public/logo/figma.png"
+        },
+        {
+            "title": "Github",
+            "image": "./public/logo/github-2.png"
+        },
+        {
+            "title": "Javascript",
+            "image": "./public/logo/javascript.png"
+        },
+        {
+            "title": "React",
+            "image": "./public/logo/react.png"
+        },
+        {
+            "title": "Node.JS",
+            "image": "./public/logo/nodeJS.png"
+        },
+        {
+            "title": "SCSS",
+            "image": "./public/logo/sass.png"
+        },
+        {
+            "title": "Tailwind CSS",
+            "image": "./public/logo/tailwind.png"
+        },
+        {
+            "title": "Typescript",
+            "image": "./public/logo/typescript.png"
+        },
+        {
+            "title": "Vite",
+            "image": "./public/logo/vite.png"
+        },
+        {
+            "title": "Logical Thinking",
+            "image": "./public/logo/logical-thinking.png"
+        }
+    ]
+}

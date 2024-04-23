@@ -13,6 +13,16 @@ export default {
       height: {
         screen2: "calc(100vh - 101.375px)",
       },
+      keyframes: {
+        bgChange: {
+          "0%": { backgroundPosition: "0vh" },
+          "50%": { backgroundPosition: "50vh" },
+          "100%": { backgroundPosition: "100vh" },
+        },
+      },
+      animation: {
+        bgChange: "bgChange 7s linear infinite",
+      },
     },
   },
   plugins: [],

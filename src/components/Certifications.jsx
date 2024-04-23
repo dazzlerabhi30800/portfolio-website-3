@@ -3,7 +3,7 @@ import React from "react";
 const Certifications = () => {
   return (
     <section className="flex flex-col py-10 my-10 md:pb-20 gap-20">
-      <h2 className="text-3xl md:text-[4rem] lg:text-[4.5rem] font-bold font-anton p-5 gradient-text bg-gradient-to-r from-[#4773FB] from-30% to-[#02C2FA] to-70%">
+      <h2 className="text-[3rem] md:text-[4rem] lg:text-[4.5rem] font-bold font-anton p-5 gradient-text bg-gradient-to-r from-[#4773FB] from-30% to-[#47F1FB] to-70%">
         Certifications
       </h2>
       <div className="flex flex-col gap-10">

@@ -54,7 +54,8 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-header h1 {
+header h1,
+footer h4 {
   --animation-time: 20s;
   background: linear-gradient(
     to left,
@@ -113,6 +114,52 @@ h2 {
 
 .live--link {
   background: rgb(245, 38, 145);
+}
+
+/* Footer Styling */
+.footer--wrapper {
+  padding: 5px 0 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #a200ff,
+    #22d6ee 50%,
+    #f6385b,
+    #ff7b00,
+    transparent
+  );
+  animation: backgroundChanger 20s linear infinite;
+  margin: 15rem 0 0;
+  background-position: 400vw;
+  transition: 0.3s linear;
+}
+
+@keyframes backgroundChanger {
+  0% {
+    background-position: 0vw;
+  }
+
+  30% {
+    background-position: 100vw;
+  }
+
+  50% {
+    background-position: 200vw;
+  }
+
+  75% {
+    background-position: 300vw;
+  }
+
+  100% {
+    background-position: 400vw;
+  }
+}
+footer {
+  place-content: start center;
+  background: linear-gradient(to right, rgb(22, 22, 39), #1f0c15);
+  position: relative;
+  z-index: 444;
 }
 
 @media (hover: hover) {

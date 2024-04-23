@@ -7,7 +7,7 @@ const ProjectComp = ({ project }) => {
         loading="lazy"
         className="w-full h-[280px] object-cover rounded-t-lg"
       />
-      <h3 className="mx-4 font-caveat text-lg md:text-2xl">{project.name}</h3>
+      <h3 className="mx-4 font-caveat text-xl md:text-2xl">{project.name}</h3>
       <div className="flex items-center gap-5 pb-8 font-jersey text-xl md:text-3xl border-none">
         <a
           href={project.github}
