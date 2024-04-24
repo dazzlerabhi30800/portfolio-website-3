@@ -29,7 +29,7 @@ html::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 html::-webkit-scrollbar-thumb {
-  background: linear-gradient(to top, #f4405e 15%, #9853f3);
+  background: #fff;
   border-radius: 5px;
 }
 
@@ -75,6 +75,33 @@ ul li:hover {
 }
 h2 {
   height: full;
+}
+
+/* Profile Section */
+.profile--img::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 330px;
+  z-index: -1;
+  box-shadow: 0 0 40px 3px rgba(242, 24, 100, 0.278);
+  background: linear-gradient(to bottom, rgb(237, 57, 174), rgb(246, 91, 153));
+  transition: 0.3s linear;
+  animation: rotateBg 8s linear infinite;
+  border-radius: 30% 70% 70% 30% / 30% 43% 57% 70%;
+}
+
+@keyframes rotateBg {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
 }
 
 /* Project Section Styling */
@@ -156,6 +183,10 @@ h2 {
 }
 
 @media Screen and (width >= 700px) {
+  .profile--img::after {
+    width: 350px;
+    height: 450px;
+  }
   .project--comp:hover {
     filter: brightness(95%);
     transform: scale(0.85);
@@ -174,5 +205,12 @@ h2 {
   }
   .project--comp:hover a {
     box-shadow: 0 10px 20px 5px rgba(18, 18, 18, 0.402);
+  }
+}
+
+@media Screen and (width >= 1000px) {
+  .profile--img::after {
+    width: 480px;
+    height: 550px;
   }
 }

@@ -1,11 +1,11 @@
 const ProfileSection = () => {
   return (
-    <section className="flex justify-start md:justify-center gap-10 md:gap-10 items-center text-center md:text-left min-h-screen flex-col md:flex-row">
-      <div className="flex-1 flex md:justify-center items-center">
+    <section className="flex justify-start md:justify-center gap-10 xl:gap-0 items-center text-center md:text-left min-h-screen flex-col md:flex-row">
+      <div className="relative z-40 profile--img flex-1 flex md:justify-center items-center">
         <img
           src="/profile.jpg"
           alt="Abhishek Choudhary"
-          className="w-full md:w-[450px] h-[400px] md:h-[470px] lg:h-[560px] rounded-xl"
+          className="w-full md:w-[400px] h-[400px] md:h-[470px] lg:h-[500px] rounded-[10%]"
         />
       </div>
       <div className="flex-1">
