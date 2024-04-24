@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaChevronUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -41,6 +41,14 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <button
+          onClick={() =>
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+          }
+          className="border-2 border-sky-300 p-2 md:p-3 hover:border-sky-500"
+        >
+          <FaChevronUp />
+        </button>
         <span className="font-poppins text-sm md:text-2xl flex item-center text-gray-400 flex-1 basis-full text-center justify-center tracking-wider">
           &copy; 2024 Copyright Abhishek Choudhary
         </span>

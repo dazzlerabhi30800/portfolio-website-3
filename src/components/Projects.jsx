@@ -15,7 +15,7 @@ const Projects = () => {
       </h2>
       <div className="projects--wrapper grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 md:gap-20 lg:gap-24 lg:w-[90%] xl:w-[100%] 2xl:w-[95%] mx-auto">
         {projects.map((project, index) => {
-          if (resize > 700) {
+          if (resize.width > 700) {
             return (
               <HoverCard scaleFactor={0.5} key={index}>
                 <ProjectComp project={project} index={index} />

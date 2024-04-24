@@ -8,7 +8,7 @@ const GithubCalendar = () => {
       </h2>
       <div
         data-aos="zoom-in-up"
-        data-aos-anchor=".calendar--section"
+        data-aos-anchor-placement="center-bottom"
         className="calendar"
       >
         <GitHubCalendar
@@ -24,7 +24,7 @@ const GithubCalendar = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-delay="500"
-        data-aos-anchor=".calendar--section"
+        data-aos-anchor-placement="center-bottom"
         className="calendar"
       >
         <GitHubCalendar
@@ -39,7 +39,7 @@ const GithubCalendar = () => {
       </div>
       <div
         data-aos="zoom-in-up"
-        data-aos-anchor=".calendar--section"
+        data-aos-anchor-placement="center-bottom"
         data-aos-delay="700"
         className="calendar"
       >
