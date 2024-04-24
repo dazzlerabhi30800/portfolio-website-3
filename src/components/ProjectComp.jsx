@@ -9,17 +9,19 @@ const ProjectComp = ({ project }) => {
       />
       <h3 className="mx-4 font-caveat text-xl md:text-2xl">{project.name}</h3>
       <div className="flex items-center gap-5 pb-8 font-jersey text-xl md:text-3xl border-none">
-        <a
-          href={project.github}
-          className="py-1 px-4 rounded-md shadow-md  text-white github--link hover:bg-indigo-500"
-          target="_blank"
-        >
-          Github
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            className="py-1 px-4 rounded-md shadow-md text-white hover:bg-indigo-500 github--link "
+            target="_blank"
+          >
+            Github
+          </a>
+        )}
         <a
           href={project.live}
           target="_blank"
-          className="py-1 px-4 rounded-md shadow-md text-white live--link hover:bg-pink-400"
+          className="py-1 px-4 rounded-md shadow-md text-white hover:bg-pink-400 live--link "
         >
           Live
         </a>

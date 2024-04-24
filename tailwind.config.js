@@ -9,6 +9,7 @@ export default {
         anton: ["var(--font-anton)"],
         caveat: ["var(--font-caveat)"],
         pacifico: ["var(--font-pacifico)"],
+        logo: ["var(--font-logo)"],
       },
       height: {
         screen2: "calc(100vh - 101.375px)",
@@ -21,7 +22,7 @@ export default {
         },
       },
       animation: {
-        bgChange: "bgChange 7s linear infinite",
+        bgChange: "bgChange 10s linear infinite",
       },
     },
   },

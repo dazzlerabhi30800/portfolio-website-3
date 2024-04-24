@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer--wrapper w-full">
       <footer className="footer flex flex-wrap items-center gap-10 w-full py-10 md:py-20 px-4 md:px-10 justify-between text-center w-full">
-        <h4 className="font-anton">AC</h4>
+        <h4>AC</h4>
         <a
           target="_target"
           href="mailto:abhisingh72065@gmail.com?subject=Hiring%20for%20opportunity&body=We%20want%20to%20hire%20you."

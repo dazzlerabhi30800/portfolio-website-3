@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 export default function Header() {
   return (
     <header className="p-4 flex items-center justify-between w-full">
-      <h1 className="font-anton">AC</h1>
+      <h1>AC</h1>
       <a
         target="_target"
         href="mailto:abhisingh72065@gmail.com?subject=Hiring%20for%20opportunity&body=We%20want%20to%20hire%20you."

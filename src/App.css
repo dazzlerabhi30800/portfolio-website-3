@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&family=Jersey+15&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&family=Caveat:wght@400..700&family=Jersey+15&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Lines&display=swap");
 
 :root {
   --font-caveat: "Caveat", cursive;
@@ -6,6 +6,7 @@
   --font-jersey: "Jersey 15", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --font-pacifico: "Pacifico", sans-serif;
+  --font-logo: "Bungee Shade", sans-serif;
   --perspective: 2000px;
 }
 
@@ -23,12 +24,12 @@ body {
   scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
   background: #222222;
   scroll-behavior: smooth;
 }
 html::-webkit-scrollbar-thumb {
-  background: rgb(158, 155, 155);
+  background: linear-gradient(to top, #f4405e 15%, #9853f3);
   border-radius: 5px;
 }
 
@@ -36,28 +37,21 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  background: radial-gradient(circle, rgb(22, 21, 21), rgb(0, 0, 0));
+  background: radial-gradient(circle, rgb(12, 15, 21), rgb(7, 7, 7));
 }
 
 header h1,
 .footer h4 {
   --animation-time: 20s;
-  background: linear-gradient(
-    to left,
-    #f751c0,
-    #ef3079,
-    #f08f45,
-    #f9d049,
-    #c0f335,
-    #8eef3e
-  );
+  background: linear-gradient(to right, cyan, #f751c0, #ed41ab, #effa59);
   width: fit-content;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: clamp(2.5rem, 3.5vw + 8px, 3.5rem);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 4px;
+  font-family: var(--font-logo);
 }
 .highlight {
   color: #fff;
@@ -95,10 +89,14 @@ h2 {
 }
 .github--link {
   background: rgb(104, 38, 245);
+  position: relative;
+  z-index: 444;
 }
 
 .live--link {
   background: rgb(245, 38, 145);
+  position: relative;
+  z-index: 444;
 }
 
 /* Footer Styling */
@@ -142,7 +140,7 @@ h2 {
 }
 .footer {
   place-content: start center;
-  background: linear-gradient(to right, rgb(22, 22, 39), #1f0c15);
+  background: linear-gradient(to right, #11111e 30%, #14080e);
   position: relative;
   z-index: 444;
 }
@@ -160,7 +158,7 @@ h2 {
 @media Screen and (width >= 700px) {
   .project--comp:hover {
     filter: brightness(95%);
-    transform: scale(0.9);
+    transform: scale(0.85);
   }
   .project--comp:hover > img {
     transform: scale(0.9);
