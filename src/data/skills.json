@@ -2,55 +2,55 @@
     "skills": [
         {
             "title": "Bootstrap",
-            "image": "./public/logo/bootstrap.png"
+            "image": "./logo/bootstrap.png"
         },
         {
             "title": "Communication",
-            "image": "./public/logo/communication.png"
+            "image": "./logo/communication.png"
         },
         {
             "title": "CSS",
-            "image": "./public/logo/css.png"
+            "image": "./logo/css.png"
         },
         {
             "title": "Figma",
-            "image": "./public/logo/figma.png"
+            "image": "./logo/figma.png"
         },
         {
             "title": "Github",
-            "image": "./public/logo/github-2.png"
+            "image": "./logo/github-2.png"
         },
         {
             "title": "Javascript",
-            "image": "./public/logo/javascript.png"
+            "image": "./logo/javascript.png"
         },
         {
             "title": "React",
-            "image": "./public/logo/react.png"
+            "image": "./logo/react.png"
         },
         {
             "title": "Node.JS",
-            "image": "./public/logo/nodeJS.png"
+            "image": "./logo/nodeJS.png"
         },
         {
             "title": "SCSS",
-            "image": "./public/logo/sass.png"
+            "image": "./logo/sass.png"
         },
         {
             "title": "Tailwind CSS",
-            "image": "./public/logo/tailwind.png"
+            "image": "./logo/tailwind.png"
         },
         {
             "title": "Typescript",
-            "image": "./public/logo/typescript.png"
+            "image": "./logo/typescript.png"
         },
         {
             "title": "Vite",
-            "image": "./public/logo/vite.png"
+            "image": "./logo/vite.png"
         },
         {
             "title": "Logical Thinking",
-            "image": "./public/logo/logical-thinking.png"
+            "image": "./logo/logical-thinking.png"
         }
     ]
 }

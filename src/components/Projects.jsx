@@ -18,7 +18,7 @@ const Projects = () => {
           if (resize > 700) {
             return (
               <HoverCard scaleFactor={0.5} key={index}>
-                <ProjectComp project={project} />
+                <ProjectComp project={project} index={index} />
               </HoverCard>
             );
           }

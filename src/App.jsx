@@ -9,10 +9,16 @@ import Certifications from "./components/Certifications";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [show, setShow] = useState(false);
   useEffect(() => {
+    AOS.init({
+      duration: 500,
+      anchorPlacement: "bottom-center",
+    });
     document.fonts.ready.then((res) => {
       if (res.status) {
         setShow((prev) => (prev = true));

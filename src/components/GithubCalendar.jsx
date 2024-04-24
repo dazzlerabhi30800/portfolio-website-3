@@ -2,11 +2,15 @@ import GitHubCalendar from "react-github-calendar";
 
 const GithubCalendar = () => {
   return (
-    <section className="flex flex-col items-center min-h-screen justify-between py-10 w-full font-poppins">
+    <section className="calendar--section flex flex-col items-center min-h-screen justify-between py-10 w-full font-poppins">
       <h2 className="text-[2.5rem] md:text-[3.5rem] font-bold font-anton p-5 gradient-text bg-gradient-to-r from-yellow-300 from-15% to-green-500 to-70%">
         Github Calendar
       </h2>
-      <div className="calendar">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-anchor=".calendar--section"
+        className="calendar"
+      >
         <GitHubCalendar
           username="dazzlerabhi30800"
           style={{ width: "auto" }}
@@ -17,7 +21,12 @@ const GithubCalendar = () => {
           year={2024}
         />
       </div>
-      <div className="calendar">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-delay="500"
+        data-aos-anchor=".calendar--section"
+        className="calendar"
+      >
         <GitHubCalendar
           username="dazzlerabhi30800"
           blockRadius={3}
@@ -28,7 +37,12 @@ const GithubCalendar = () => {
           year={2023}
         />
       </div>
-      <div className="calendar">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-anchor=".calendar--section"
+        data-aos-delay="700"
+        className="calendar"
+      >
         <GitHubCalendar
           colorScheme="dark"
           style={{ width: "100%" }}
