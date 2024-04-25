@@ -18,7 +18,7 @@ function App() {
       duration: 500,
       anchorPlacement: "center-bottom",
     });
-  }, []);
+  }, [AOS]);
   return (
     <>
       <main className="main--comp flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">
