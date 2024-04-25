@@ -193,8 +193,8 @@ h2 {
     height: 450px;
   }
   .project--comp:hover {
-    filter: brightness(95%);
-    transform: scale(0.85);
+    filter: brightness(85%);
+    transform: scale(0.9);
   }
   .project--comp:hover > img {
     transform: scale(0.9);

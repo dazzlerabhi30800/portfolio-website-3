@@ -1,11 +1,6 @@
-const ProjectComp = ({ project, index }) => {
+const ProjectComp = ({ project }) => {
   return (
-    <div
-      data-aos="zoom-in-up"
-      data-aos-delay={`${index * 100} + 1`}
-      data-aos-anchor-placement="center-bottom"
-      className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-transparent hover:border-fuchsia-600 hover:scale-1 transition ease-in-out duration-300"
-    >
+    <div className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-transparent hover:border-fuchsia-600 hover:scale-1 transition ease-in-out duration-300">
       <img
         src={project.image}
         alt={project.name}
