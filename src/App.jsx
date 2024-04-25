@@ -21,19 +21,19 @@ function App() {
   }, []);
   return (
     <>
-        <main className="main--comp flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">
-          <div className="flex flex-col h-screen">
-            <Header />
-            <HeroSection />
-          </div>
-          <ProfileSection />
-          <GithubCalendar />
-          <Projects />
-          <Certifications />
-          <Resume />
-          <Skills />
-        </main>
-        <Footer />
+      <main className="main--comp flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">
+        <div className="flex flex-col h-screen">
+          <Header />
+          <HeroSection />
+        </div>
+        <ProfileSection />
+        <GithubCalendar />
+        <Projects />
+        <Certifications />
+        <Resume />
+        <Skills />
+      </main>
+      <Footer />
     </>
   );
 }

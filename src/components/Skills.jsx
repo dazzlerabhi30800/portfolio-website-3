@@ -8,7 +8,12 @@ const Skills = () => {
       </h2>
       <div className="flex flex-wrap items-center gap-20 md:gap-24 font-jersey text-xl md:text-2xl justify-center md:w-[80%] lg:w-[65%] xl:w-[55%]">
         {skills.map((skill, index) => (
-          <div key={index} className="flex flex-col gap-2 items-center">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+            key={index}
+            className="flex flex-col gap-2 items-center"
+          >
             <img
               src={skill.image}
               className="w-[90px] h-[100px] object-contain"
