@@ -16,7 +16,6 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 500,
-      anchorPlacement: "center-bottom",
     });
   }, [AOS]);
   return (
