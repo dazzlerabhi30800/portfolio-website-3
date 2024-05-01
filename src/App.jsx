@@ -14,9 +14,12 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      duration: 500,
-    });
+    const handleAnimate = () => {
+      return AOS.init({
+        duration: 500,
+      });
+    };
+    return () => handleAnimate();
   }, [AOS]);
   return (
     <>

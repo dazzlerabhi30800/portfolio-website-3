@@ -15,7 +15,7 @@ const Resume = () => {
       </button>
       <img
         data-aos="zoom-in-up"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-center"
         className="sm:w-[70%] mx-auto"
         src="./resume/resume.jpg"
         alt="Resume - Abhishek Choudhary"

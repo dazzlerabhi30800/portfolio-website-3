@@ -14,8 +14,8 @@ const Projects = () => {
         Projects
       </h2>
       <div
-        data-aos="zoom-out-up"
-        data-aos-delay="100"
+        data-aos="zoom-out-down"
+        // data-aos-delay="100"
         data-aos-anchor-placement="top-center"
         className="projects--wrapper grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 md:gap-20 lg:gap-24 lg:w-[90%] xl:w-[100%] 2xl:w-[95%] mx-auto"
       >
