@@ -12,7 +12,7 @@ const Skills = () => {
             data-aos="zoom-in-up"
             data-aos-delay="900"
             data-aos-anchor-placement="bottom"
-            key={index}
+            key={skill.title}
             className="flex flex-col gap-2 items-center"
           >
             <img
