@@ -15,15 +15,11 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     const handleAnimate = () => {
-      console.log("function started");
       AOS.init({
         duration: 500,
       });
-      console.log("function ended");
     };
-    return () => {
-      handleAnimate();
-    };
+    handleAnimate();
   }, [AOS]);
   return (
     <>
