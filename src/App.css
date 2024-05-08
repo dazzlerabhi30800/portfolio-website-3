@@ -14,6 +14,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 
 html,
@@ -24,12 +25,13 @@ body {
   background: radial-gradient(circle, rgb(12, 15, 21), rgb(7, 7, 7));
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  scroll-behavior: smooth;
+}
+html {
+  overflow-y: auto;
 }
 html::-webkit-scrollbar {
   width: 8px;
   background: #222222;
-  scroll-behavior: smooth;
 }
 html::-webkit-scrollbar-thumb {
   background: #fff;
