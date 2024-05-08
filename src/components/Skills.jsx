@@ -10,7 +10,7 @@ const Skills = () => {
         {skills.map((skill) => (
           <div
             data-aos="zoom-in-up"
-            data-aos-delay="500"
+            data-aos-delay="1200"
             data-aos-anchor-placement="bottom"
             key={skill.title}
             className="flex flex-col gap-2 items-center"
