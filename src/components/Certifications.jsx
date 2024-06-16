@@ -8,8 +8,8 @@ const Certifications = () => {
       </h2>
       <div className="flex flex-col gap-10">
         <a
-          data-aos="flip-up"
-          data-aos-delay="200"
+          // data-aos="flip-up"
+          // data-aos-delay="200"
           href="https://www.freecodecamp.org/certification/dazzlerabhi30800/javascript-algorithms-and-data-structures"
           target="_blank"
           className="w-full p-6 sm:p-10 hover:bg-white/10 transition ease-in-out duration-300"
@@ -21,8 +21,8 @@ const Certifications = () => {
           />
         </a>
         <a
-          data-aos="flip-up"
-          data-aos-delay="400"
+          // data-aos="flip-up"
+          // data-aos-delay="400"
           href="https://www.freecodecamp.org/certification/dazzlerabhi30800/front-end-development-libraries"
           target="_blank"
           className="w-full p-6 sm:p-10 hover:bg-white/10 transition ease-in-out duration-300"

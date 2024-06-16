@@ -1,5 +1,4 @@
 import "./App.css";
-import { useEffect } from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProfileSection from "./components/Profile";
@@ -9,8 +8,6 @@ import Certifications from "./components/Certifications";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import LocomotiveScroll from "locomotive-scroll";
 const locomotive = new LocomotiveScroll({
   lenisOptions: {
@@ -18,13 +15,10 @@ const locomotive = new LocomotiveScroll({
     smoothTouch: true,
   },
 });
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-    });
-  }, []);
   return (
     <>
       <main className="main--comp flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">

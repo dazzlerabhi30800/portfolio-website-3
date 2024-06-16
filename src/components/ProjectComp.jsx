@@ -1,6 +1,15 @@
+import { motion } from "framer-motion";
 const ProjectComp = ({ project }) => {
+  const initial = { opacity: 0, scale: 0 };
+  const view = { opacity: 1, scale: 1 };
+  const transition = { duration: 0.3, type: "tween" };
   return (
-    <div className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-gray-600 hover:border-fuchsia-400 transition ease-in-out duration-300">
+    <motion.div
+      initial={initial}
+      whileInView={view}
+      transition={transition}
+      className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-gray-600 hover:border-fuchsia-400 transition ease-in-out duration-300"
+    >
       <img
         src={project.image}
         alt={project.name}
@@ -26,7 +35,7 @@ const ProjectComp = ({ project }) => {
           Live
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

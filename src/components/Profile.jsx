@@ -1,9 +1,18 @@
+import { motion } from "framer-motion";
 const ProfileSection = () => {
+  const transition = {
+    duration: 0.8,
+    type: "spring",
+    ease: "linear",
+    stiffness: "100",
+  };
   return (
     <section className="flex justify-start md:justify-center gap-10 xl:gap-0 items-center text-center md:text-left min-h-screen flex-col md:flex-row">
-      <div
-        data-aos="zoom-in-up"
-        data-aos-anchor-placement="center-bottom"
+      <motion.div
+        initial={{ opacity: 0, x: -700 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: false }}
+        transition={transition}
         className="relative z-40 profile--img flex-1 flex md:justify-center items-center"
       >
         <img
@@ -11,11 +20,13 @@ const ProfileSection = () => {
           alt="Abhishek Choudhary"
           className="w-full md:w-[400px] h-[400px] md:h-[470px] lg:h-[500px] rounded-[10%]"
         />
-      </div>
+      </motion.div>
 
-      <div
-        data-aos="zoom-in-up"
-        data-aos-anchor-placement="center-bottom"
+      <motion.div
+        initial={{ opacity: 0, x: 700 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: false }}
+        transition={transition}
         className="flex-1"
       >
         <h3 className="text-lg md:text-[1.2rem] lg:text-[1.6rem] 2xl:text-[1.8rem] leading-[1.6] md:leading-[1.1] lg:leading-[1.3]  text-gray-400 font-jersey">
@@ -35,7 +46,7 @@ const ProfileSection = () => {
           <span className="highlight">don't just make it but make it work</span>
           ☑️".
         </h3>
-      </div>
+      </motion.div>
     </section>
   );
 };

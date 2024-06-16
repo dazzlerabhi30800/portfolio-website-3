@@ -1,14 +1,19 @@
 import GitHubCalendar from "react-github-calendar";
+import { motion } from "framer-motion";
 
 const GithubCalendar = () => {
+  const initial = { opacity: 0, y: -700 };
+  const view = { opacity: 1, y: 0 };
+  const transition = { duration: 0.4, type: "tween" };
   return (
     <section className="calendar--section flex flex-col items-center min-h-screen justify-between py-10 w-full font-poppins">
       <h2 className="text-[2.5rem] md:text-[3.5rem] font-bold font-anton p-5 gradient-text bg-gradient-to-r from-yellow-300 from-15% to-green-500 to-70%">
         Github Calendar
       </h2>
-      <div
-        data-aos="zoom-in-up"
-        data-aos-anchor-placement="center-bottom"
+      <motion.div
+        initial={initial}
+        whileInView={view}
+        transition={transition}
         className="calendar"
       >
         <GitHubCalendar
@@ -20,11 +25,11 @@ const GithubCalendar = () => {
           showWeekdayLabels={true}
           year={2024}
         />
-      </div>
-      <div
-        data-aos="zoom-in-up"
-        data-aos-delay="500"
-        data-aos-anchor-placement="center-bottom"
+      </motion.div>
+      <motion.div
+        initial={initial}
+        whileInView={view}
+        transition={transition}
         className="calendar"
       >
         <GitHubCalendar
@@ -36,11 +41,12 @@ const GithubCalendar = () => {
           showWeekdayLabels={true}
           year={2023}
         />
-      </div>
-      <div
-        data-aos="zoom-in-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-delay="700"
+      </motion.div>
+
+      <motion.div
+        initial={initial}
+        whileInView={view}
+        transition={transition}
         className="calendar"
       >
         <GitHubCalendar
@@ -51,7 +57,7 @@ const GithubCalendar = () => {
           year={2022}
           showWeekdayLabels={true}
         />
-      </div>
+      </motion.div>
     </section>
   );
 };

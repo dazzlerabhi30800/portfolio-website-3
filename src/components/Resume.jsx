@@ -14,8 +14,8 @@ const Resume = () => {
         Download
       </button>
       <img
-        data-aos="zoom-in-up"
-        data-aos-anchor-placement="top-center"
+        // data-aos="zoom-in-up"
+        // data-aos-anchor-placement="top-center"
         className="sm:w-[70%] mx-auto"
         src="./resume/resume.jpg"
         alt="Resume - Abhishek Choudhary"
