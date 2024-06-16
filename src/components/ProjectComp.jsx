@@ -1,6 +1,6 @@
 const ProjectComp = ({ project }) => {
   return (
-    <div className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-gray-600 hover:border-fuchsia-400 hover:scale-1 transition ease-in-out duration-300">
+    <div className="project--comp flex flex-col bg-gradient-to-b from-gray-800 to-gray-900 w-full gap-8 justify-between items-center rounded-lg shadow-lg border-2 border-gray-600 hover:border-fuchsia-400 transition ease-in-out duration-300">
       <img
         src={project.image}
         alt={project.name}

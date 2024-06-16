@@ -117,6 +117,9 @@ h2 {
   transition: 0.3s linear;
   transform-style: preserve-3d;
 }
+.project--comp:hover  img {
+  border: 2px solid white;
+}
 .project--comp * {
   transform-style: preserve-3d;
   transition: 0.3s linear;
