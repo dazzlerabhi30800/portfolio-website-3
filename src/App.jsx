@@ -15,7 +15,7 @@ import LocomotiveScroll from "locomotive-scroll";
 const locomotiveScroll = new LocomotiveScroll({
   lenisOptions: {
     duration: 1.1,
-    smoothTouch: false,
+    smoothTouch: true,
   },
 });
 
