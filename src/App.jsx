@@ -21,13 +21,10 @@ const locomotive = new LocomotiveScroll({
 
 function App() {
   useEffect(() => {
-    const handleAnimate = () => {
-      AOS.init({
-        duration: 500,
-      });
-    };
-    handleAnimate();
-  }, [AOS]);
+    AOS.init({
+      duration: 500,
+    });
+  }, []);
   return (
     <>
       <main className="main--comp flex flex-col items-center px-6 md:px-10 lg:px-20 w-full">

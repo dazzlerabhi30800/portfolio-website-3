@@ -11,7 +11,7 @@ const Skills = () => {
           <div
             data-aos="zoom-in-down"
             data-aos-delay="200"
-            data-aos-anchor-placement="bottom"
+            // data-aos-anchor-placement="bottom"
             key={skill.title}
             className="flex flex-col gap-2 items-center"
           >
