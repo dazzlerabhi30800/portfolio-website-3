@@ -1,7 +1,6 @@
 import React from "react";
 import data from "../data/ProjectData.json";
 import ProjectComp from "./ProjectComp";
-import "@darenft/react-3d-hover-card/dist/style.css";
 
 const Projects = () => {
   const projects = data.projectData;
