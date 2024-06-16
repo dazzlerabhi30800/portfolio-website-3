@@ -11,6 +11,13 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LocomotiveScroll from "locomotive-scroll";
+const locomotiveScroll = new LocomotiveScroll({
+  lenisOptions: {
+    duration: 1.1,
+    smoothTouch: false,
+  },
+});
 
 function App() {
   useEffect(() => {
