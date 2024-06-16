@@ -1,6 +1,6 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaChevronUp } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({ locomotive }) => {
   return (
     <div className="footer--wrapper w-full">
       <footer className="footer flex flex-wrap items-center gap-10 w-full py-10 md:py-20 px-4 md:px-10 justify-between text-center w-full">
@@ -43,7 +43,8 @@ const Footer = () => {
         </ul>
         <button
           onClick={() =>
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+            // window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+            locomotive.scrollTo("top", { duration: 0.9 })
           }
           className="border-2 border-sky-300 p-2 md:p-3 hover:border-sky-500"
         >

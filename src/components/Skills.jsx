@@ -9,8 +9,8 @@ const Skills = () => {
       <div className="flex flex-wrap items-center gap-20 md:gap-24 font-jersey text-xl md:text-2xl justify-center md:w-[80%] lg:w-[65%] xl:w-[55%]">
         {skills.map((skill) => (
           <div
-            data-aos="zoom-in-up"
-            data-aos-delay="1200"
+            data-aos="zoom-in-down"
+            data-aos-delay="200"
             data-aos-anchor-placement="bottom"
             key={skill.title}
             className="flex flex-col gap-2 items-center"

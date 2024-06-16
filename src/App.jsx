@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import LocomotiveScroll from "locomotive-scroll";
-const locomotiveScroll = new LocomotiveScroll({
+const locomotive = new LocomotiveScroll({
   lenisOptions: {
-    duration: 1.1,
+    duration: 1.3,
     smoothTouch: true,
   },
 });
@@ -42,7 +42,7 @@ function App() {
         <Resume />
         <Skills />
       </main>
-      <Footer />
+      <Footer locomotive={locomotive} />
     </>
   );
 }
